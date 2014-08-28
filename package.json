@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "A little resume generator written in Javascript.",
   "dependencies": {
-    "node-static": ""
+    "node-static": "",
+    "bower": ""
   },
   "devDependencies": {},
   "scripts": {
