@@ -1,0 +1,15 @@
+{
+  "name": "resumator",
+  "version": "0.0.1",
+  "description": "A little resume generator written in Javascript.",
+  "dependencies": {
+    "node-static": ""
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "./node_modules/.bin/static public/"
+  },
+  "author": "Jens Bissinger <mail@jens-bissinger.de>",
+  "repository": "https://github.com/bsingr/resumator",
+  "license": "MIT"
+}

@@ -1,0 +1,130 @@
+<div class="container">
+  <h2>{{title}}</h2>
+
+  <p class="address">{{address}} ・ {{phone}} ・ <a href="mailto:{{email}}">{{email}}</a></p>
+<hr />
+
+<h2>Summary</h2>
+
+<div class="row summary">
+  <div class="col-lg-5">
+    <h4>Professional skills</h4>
+    <ul>
+      {{#skills}}<li>{{&.}}</li>{{/skills}}
+    </ul>
+  </div>
+  <div  class="col-lg-5">
+    <h4>Contribution to popular products</h4>
+    <ul>
+      {{#commercial_products}}<li>{{&.}}</li>{{/commercial_products}}
+    </ul>
+    <h4>Participation in open source</h4>
+    <ul>
+      {{#open_source}}<li>{{&.}}</li>{{/open_source}}
+    </ul>
+  </div>
+</div>
+
+
+<hr />
+
+<h2>Professional Experience</h2>
+<div>
+{{#professional_experience}}
+  {{#pagebreak}}
+    <div class="pagebreak"></div>
+  {{/pagebreak}}
+  <div class="row step experience">
+    <div class="col-lg-2">
+      <p class="timespan">{{timespan}}</p>
+    </div>
+    <div class="col-lg-8">
+      <div class="row">
+        <div class="col-lg-2 part-label">
+        </div>
+        <div class="col-lg-10">
+          <h1>{{company}} <span class='location'>{{location}}</span></h1>
+        </div>
+      </div>
+
+      {{#project}}
+      <div class="row">
+        <div class="col-lg-2 part-label">
+          <p>Product</p>
+        </div>
+        <div class="col-lg-10">
+          <p class="project">{{project}}</p>
+        </div>
+      </div>
+      {{/project}}
+
+      <div class="row">
+        <div class="col-lg-2 part-label">
+          Position
+        </div>
+        <div class="col-lg-10">
+          <p class="position">{{title}}</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-2 part-label">
+          <p>Tasks</p>
+        </div>
+        <div class="col-lg-10">
+          <ul>
+            {{#tasks}}<li>{{&.}}</li>{{/tasks}}
+          </ul>
+        </div>
+      </div>
+
+      {{#keywords}}
+      <div class="row">
+        <div class="col-lg-2 part-label">
+          <p>Key words</p>
+        </div>
+        <div class="col-lg-10">
+          <p class="keywords">{{keywords}}</p>
+        </div>
+      </div>
+      {{/keywords}}
+
+      <div class="row">
+        <div class="col-lg-2">
+        </div>
+        <div class="col-lg-10">
+          <hr />
+        </div>
+      </div>
+    </div>
+  </div>
+{{/professional_experience}}
+</div>
+
+<hr />
+
+<h2>Education</h2>
+
+{{#education}}
+  <div class="row step">
+    <div class="col-lg-2">
+      <p class="timespan">{{timespan}}</p>
+    </div>
+    <div class="col-lg-8">
+      <div class="row">
+        <div class="col-lg-2 part-label">
+        </div>
+        <div class="col-lg-10">
+          <h1>{{school}} <span class='location'>{{location}}</span></h1>
+        </div>
+
+        <div class="col-lg-2 part-label">
+          <p>{{type}}</p>
+        </div>
+        <div class="col-lg-10">
+          <p class="title">{{title}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+{{/education}}

@@ -1,0 +1,9 @@
+{
+  "name": "resumator",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "",
+    "bootstrap": "",
+    "mustache" : ""
+  }
+}

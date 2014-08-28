@@ -1,0 +1,90 @@
+body {
+  padding: 50px 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+@media print and (color) {
+   * {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+   }
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+.address {
+  font-size: 0.8em;
+}
+
+.summary li {
+  font-size: 0.9em;
+}
+
+.summary h4 {
+  margin-top: 15px;
+}
+
+.location {
+  font-size: 0.8em;
+}
+
+.step {
+  margin-top: 20px;
+}
+
+.keywords {
+  font-size: 0.8em;
+}
+
+.project {
+  font-weight: bold;
+}
+
+.step hr {
+  border-color: transparent;
+}
+
+.step:not(:last-child) hr {
+  border-color: #eee;
+}
+
+.step h1 .location {
+  font-size: 0.6em;
+}
+
+.step h1 {
+  font-size: 1.3em;
+}
+
+.step h2 {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+
+.step ul {
+  padding-left: 18px;
+}
+
+.step .part-label {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  text-align: right;
+  color: #999;
+}
+
+.step .part-label,
+.step .keywords {
+  padding-top: 3px;
+}
+
+.pagebreak {
+  page-break-before: always;
+  height: 50px;
+}

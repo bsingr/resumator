@@ -1,0 +1,100 @@
+{
+  "title": "John Galt - Web Front End Engineer",
+  "address": "Ipsum road, Lorem, DE",
+  "phone": "+00 000 000 000",
+  "email": "john@example.com",
+  "skills": [
+    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+  ],
+  "commercial_products": [
+    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+  ],
+  "open_source": [
+    "Something (<a href=\"http://github.com/bsingr\">github.com/bsingr</a>)",
+    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+  ],
+  "professional_experience": [
+    {
+      "title": "Web Front End Engineer",
+      "company": "Happy Corp",
+      "location": "Berlin, DE",
+      "timespan": "since 01/2013",
+      "project": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+      "tasks": [
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+      ],
+      "keywords": "HTML, CSS / SASS, Javascript / jQuery UI, REST, Scrum, BDD"
+    },
+    {
+      "title": "Web Front End Engineer",
+      "company": "Happy Corp",
+      "location": "Berlin, DE",
+      "timespan": "01/2012 - 12/2012",
+      "project": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+      "tasks": [
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+      ],
+      "keywords": "HTML, CSS / SASS, Javascript / jQuery UI, REST, Scrum, BDD"
+    },
+    {
+      "title": "Web Front End Engineer",
+      "company": "Happy Corp",
+      "location": "Berlin, DE",
+      "timespan": "01/2011 - 12/2011",
+      "project": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+      "tasks": [
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+      ],
+      "keywords": "HTML, CSS / SASS, Javascript / jQuery UI, REST, Scrum, BDD",
+      "pagebreak": true
+    },
+    {
+      "title": "Web Front End Engineer",
+      "company": "Happy Corp",
+      "location": "Berlin, DE",
+      "timespan": "01/2010 - 12/2010",
+      "project": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+      "tasks": [
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+      ],
+      "keywords": "HTML, CSS / SASS, Javascript / jQuery UI, REST, Scrum, BDD"
+    }
+  ],
+  "education": [
+    {
+      "title": "M. Sc. Sit Amet",
+      "school": "Lorem University",
+      "location": "London, UK",
+      "timespan": "01/2009 - 12/2009",
+      "type": "Degree"
+    },
+    {
+      "title": "B. Sc. Dolor",
+      "school": "Ipsum University",
+      "location": "Berlin, DE",
+      "timespan": "01/2008 - 12/2008",
+      "type": "Degree"
+    }
+  ]
+}
