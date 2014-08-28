@@ -2,6 +2,10 @@
 
 A little resume generator written in Javascript. It basically takes some resume information and compiles it into a HTML/CSS based resume.
 
+Optimize for print.
+
+![screenshot.png](screenshot.png)
+
 ## Install
 
     npm install
